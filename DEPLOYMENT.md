@@ -8,32 +8,32 @@
 
 ## Thông Tin Học Viên
 
-| Mục | Nội dung |
-|-----|----------|
-| Họ và tên | Nguyen Hoang Nam |
-| Mã học viên | 2A202602485 |
-| Repo | github.com/namchip2003-beep/K4-L3B-NguyenHoangNam-2A202602485-Cloud-Service-And-Deployment |
+| Mục           | Nội dung                                                                                                                                                                                                            |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Họ và tên   | Nguyen Hoang Nam                                                                                                                                                                                                     |
+| Mã học viên | 2A202602485                                                                                                                                                                                                          |
+| Repo           | [github.com/namchip2003-beep/K4-L3B-DAY12-NguyenHoangNam-2A202602485-Cloud-Service-And-Deployment.git](https://github.com/namchip2003-beep/K4-L3B-DAY12-NguyenHoangNam-2A202602485-Cloud-Service-And-Deployment.git)  |
 
 ## Service
 
-| Mục | Nội dung |
-|-----|----------|
-| Public URL | https://local-fallback.up.railway.app |
-| Platform | Railway |
-| Ngày deploy | 2026-09-29 |
+| Mục         | Nội dung                             |
+| ------------ | ------------------------------------- |
+| Public URL   | https://day12-agent-production-d2b7.up.railway.app |
+| Platform     | Railway                               |
+| Ngày deploy | 2026-09-29                            |
 
 ## Biến Môi Trường Đã Set Trên Cloud
 
 Ghi tên biến và **nguồn giá trị**, không ghi giá trị:
 
-| Biến | Đã set | Ghi chú |
-|------|--------|---------|
-| `PORT` | ✅ | platform tự gán |
-| `AGENT_API_KEY` | ✅ | đặt trong dashboard, không nằm trong repo |
-| `REDIS_URL` | ✅ | Local Redis |
-| `RATE_LIMIT_PER_MINUTE` | ✅ | 10 |
-| `MONTHLY_BUDGET_USD` | ✅ | 10.0 |
-| `LOG_LEVEL` | ✅ | INFO |
+| Biến                     | Đã set | Ghi chú                                      |
+| ------------------------- | -------- | --------------------------------------------- |
+| `PORT`                  | ✅       | platform tự gán                             |
+| `AGENT_API_KEY`         | ✅       | đặt trong dashboard, không nằm trong repo |
+| `REDIS_URL`             | ✅       | Local Redis                                   |
+| `RATE_LIMIT_PER_MINUTE` | ✅       | 10                                            |
+| `MONTHLY_BUDGET_USD`    | ✅       | 10.0                                          |
+| `LOG_LEVEL`             | ✅       | INFO                                          |
 
 ## Lệnh Kiểm Tra
 
